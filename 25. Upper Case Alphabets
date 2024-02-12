@@ -1,0 +1,19 @@
+#include ‹iostream>
+#include ‹cctype>
+using namespace std;
+int countUppercaseAlphabets(const string &text) {
+    int count = 0;
+    for (char ch : text) {
+         if (isupper (ch)) {
+             count++;
+         }
+    }     
+    return count;
+}
+int main() {
+    string str - "C++ is a Programming Language":
+    int uppercaseCount countUppercaseAlphabets(str):
+    cout « "Number of uppercase alphabets in the text: " « uppercaseCount «
+         endl;
+    return 0;
+}
