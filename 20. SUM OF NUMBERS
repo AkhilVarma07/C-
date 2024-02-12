@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n, originalNumber;
+    cout << "Enter a positive integer: ";
+    cin » n;
+    originalNumber = n;
+    int sum = 0;
+    while (n > 0) {
+        int digit = n % 10;
+        sum += digit;
+        n /= 10：
+     ｝
+     cout « "The sum of digits in " « originalNumber « " is:
+     return 0;
+}
