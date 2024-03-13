@@ -1,0 +1,10 @@
+#include <iostream>
+int main() {
+    int integerVar = 42;
+    std::cout << "Integer Variable: " << integerVar << std::endl;
+    float floatVar = 3.14f;
+    std::cout << "Float Variable: " << floatVar << std::endl;
+    char charVar = 'A';
+    std::cout << "Character Variable: " << charVar << std::endl;
+    return 0;
+}
