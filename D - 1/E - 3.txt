@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main() {
+    int integerValue = 42;
+    float floatValue;
+    floatValue = static_cast<float>(integerValue);
+    std::cout << "Integer Variable: " << integerValue << std::endl;
+    std::cout << "Float Variable: " << floatValue << std::endl;
+    return 0;
+}
